@@ -20,7 +20,6 @@ def initialise_table(teams):
     return table
 
 
-
 def update_table(table, home, away, hg, ag):
     table[home]['P'] += 1
     table[away]['P'] += 1
@@ -48,10 +47,6 @@ def update_table(table, home, away, hg, ag):
 
     table[home]['GD'] = table[home]['GF'] - table[home]['GA']
     table[away]['GD'] = table[away]['GF'] - table[away]['GA']
-
-
-
-
 
 
 def compute_table(matches_df):
