@@ -1,0 +1,15 @@
+log = logs/spfl.log
+error = logs/spfl.err
+output = logs/spfl.out
+getenv = True
+
+# Executable and arguments here 
+executable = /data/wiay/postgrads/alex/gwcosmo_new/bin/python
+arguments = run_league.py
+
+# Resources 
+request_cpus = 16
+request_memory = 10GB
+
+# Job number
+queue 1
